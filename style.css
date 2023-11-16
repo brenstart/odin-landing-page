@@ -25,6 +25,7 @@ body {
   justify-content: flex-end;
   width: 40%;
   align-items: center;
+  
 }
 
 .header-right-links ul{
@@ -34,8 +35,7 @@ body {
 
 li {
   list-style-type: none;
-  margin-left: 10px;
-  padding:;
+  margin: 0 20px;
   
 }
 
@@ -47,6 +47,33 @@ a {
 .description-and-image {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  
+  background-color: #1F2937;
+  color: #F9FAF8;
+
+}
+
+.description h1 {
+  font-size: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.description button {
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.image img {
+  width: 350px;
+  height: auto;
+  margin: 50px;
+  
 }
 
 .info-thumb-container {
@@ -66,4 +93,19 @@ a {
 .thumbnail img {
   border: 2px solid #3882F6;
   border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 40px 60px;
+  padding: 20px;
+
 }
