@@ -142,11 +142,20 @@ a {
 .thumbnail-one {
   background-image: url(images/warrior-4458063_1280.jpg);
   background-position: 100% 50%;
-  background-repeat: no-repeat;
 }
 
-.thumbnail img {
-  
+.thumbnail-two {
+  background-image: url(images/space-port-3120607_1280.jpg);
+}
+
+.thumbnail-three {
+  background-image: url(images/digital-art-398342_1280.png);
+  background-position: 90% 50%;
+}
+
+.thumbnail-four {
+  background-image: url(images/woman-3340958_1280.jpg);
+  background-size: 120%;
 }
 
 .quote {
