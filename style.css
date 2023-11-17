@@ -116,21 +116,33 @@ a {
 }
 
 .thumbnail-and-subtext {
-  border: 2px solid #3882F6;
-  border-radius: 10px;
+  
+  margin: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .thumb-border {
   background-color: red;
   height: 120px;
+  width: 120px;
   background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #3882F6;
+  margin: 10px 0;
+  
+}
+
+.subtext {
+  display: flex;
+  justify-content: center;
 }
 
 .thumbnail-one {
   background-image: url(images/warrior-4458063_1280.jpg);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
 }
 
 .thumbnail img {
