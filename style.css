@@ -8,7 +8,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -202,7 +202,7 @@ a {
   justify-content: flex-end;
   text-align: right;
   font-style: normal;
-  margin: 0 0 0 75%;
+  margin: 0 0 0 86%;
 }
 
 .cta-all {
